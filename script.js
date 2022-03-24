@@ -13,6 +13,21 @@ const Modal = {
     }
 }
 
+const ModalError = {
+    open() {
+        //Abrir Modal
+        //Adicionar a class active ao modal
+        document.querySelector('.modal-overlay-error')
+            .classList.toggle('active')
+    },
+    close() {
+        //Fechar Modal
+        //Remover a class active ao modal
+        document.querySelector('.modal-overlay-error')
+            .classList.toggle('active')
+    }
+}
+
 const Storage = {
     get() {
         return JSON.parse(localStorage.getItem("dev.finances:transaction")) || []
@@ -23,7 +38,6 @@ const Storage = {
     }
 }
 
-//Esse é uma Array, uma Matriz de valores, esses valores são inseridos pelo Usuário no Formulário da Modal
 const calcTransaction = {
     //Aqui é uma Refatoração, mexendo na estrutura para que possamos expandir a aplicação de alguma forma
     all: Storage.get(),
@@ -176,7 +190,7 @@ const Form = {
         if (description.trim() === "" ||
             amount.trim() === "" ||
             date.trim() === "") {
-            throw new Error("Por favor, preencha todos os campos")
+            throw new Error
         }
     },
 
@@ -216,7 +230,7 @@ const Form = {
             //Modal feche
             Modal.close()
         } catch (error) {
-            alert(error.message)
+            ModalError.open()
         }
     }
 }

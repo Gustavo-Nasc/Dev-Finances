@@ -7,17 +7,19 @@
     <title>dev.finace$</title>
 
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,700;1,100;1,200;1,400;1,700&display=swap"
         rel="stylesheet">
+    <link rel="icon" href="./assets/favicon.ico" type="image/x-icon" />
 </head>
 
 <body>
     <header>
         <!--Título Principal da Página <h1>-->
-        <img src="./assets/logo.svg" alt="Logo Dev Finances">
+        <img class="logotipo" src="./assets/logo.svg" alt="Logo Dev Finances">
     </header>
 
     <!--Conteúdo da Página-->
@@ -37,7 +39,7 @@
             <div class="card">
                 <h3>
                     <span>Saídas</span>
-                    <img src="./assets/expense.svg" alt="Imagem de Entradas">
+                    <img id="expense" src="./assets/expense.svg" alt="Imagem de Entradas">
                 </h3>
                 <p id="expenseDisplay"></p>
             </div>
@@ -95,6 +97,15 @@
                     </div>
                 </form>
             </div>
+        </div>
+    </div>
+
+    <div class="modal-overlay-error">
+        <div class="modal-error">
+            <p>Por favor preencha todos os campos</p>
+            <a href="#" onclick="ModalError.close()" class="button">
+                <img src="./assets/xmark-solid.png">
+            </a>
         </div>
     </div>
 
