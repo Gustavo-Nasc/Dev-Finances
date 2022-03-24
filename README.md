@@ -1,6 +1,6 @@
-# Rockeatseat Maratora 01 Discover
+<h1 align="center">Rockeatseat Maratora 01 Discover</h1>
 
-## Dev-Finance$
+<h2>Dev-Finance$</h2>
 
 <h1 align="center">
   <img alt="dev.finances" title="dev.finances" src="https://github.com/rocketseat-education/maratona-discover-01/blob/main/.github/logo.svg" width="220px" />
