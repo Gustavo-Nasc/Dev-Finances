@@ -1,14 +1,8 @@
-<h1 align="center">Rockeatseat Maratora 01 Discover</h1>
+# Rockeatseat Maratora 01 Discover
 
-<h1 align="center">
-  <img alt="dev.finances" title="dev.finances" src="https://github.com/rocketseat-education/maratona-discover-01/blob/main/.github/logo.svg" width="220px" />
-</h1>
-
-<br>
-
-<p align="center">
-  <img alt="dev.finances" src="./.github/preview.png" width="100%">
-</p>
+<div align="center">
+  <img alt="dev.finances" src="./.github/preview.png" width="80%">
+</div>
 
 ## 🚀 Tecnologias
 
