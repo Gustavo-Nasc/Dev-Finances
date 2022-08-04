@@ -1,4 +1,4 @@
-# Rockeatseat Maratora 01 Discover
+# Dev.Finance$
 
 <div align="center">
   <img alt="dev.finances" src="./.github/preview.png" width="80%">
